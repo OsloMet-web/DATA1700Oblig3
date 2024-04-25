@@ -13,11 +13,11 @@ function registrer(){
     let valid = valider(billett);
 
     if (valid === true){
-        $.post("/Lagre"), billett, function(){
+        $.post("/Lagre", billett, function(){
             hentAlle()
-        }
+        })
         $("#antall").val("");
-        $("#film").val("");
+        $("#film").val("invalid");
         $("#fornavn").val("");
         $("#etternavn").val("");
         $("#telefon").val("");
