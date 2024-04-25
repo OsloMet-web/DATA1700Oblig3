@@ -1,0 +1,12 @@
+Oblig 1
+OsloMet brukernavn: joeng2093
+
+GitHub brukernavn: jengesgaar
+
+Github repo URL: https://github.com/data1700-v23/oblig-1-jengesgaar
+
+Fullt navn: Jonas Engesgaar
+
+Kort beskrivelse av applikasjon (5-10 setninger): Enkel kode for å registrere kinobilletter Det er brukt en rekke funksjoner for å validere input, 
+og teste om det er et norskt nummer og riktig epostadresse. Det er brukt en mysql database for å lagre billetter og å enkelt kunne slette dem. 
+Dataen blir hentet fra databasen og deretter lagt inn i html-filen ved en funksjon.
