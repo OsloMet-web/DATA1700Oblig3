@@ -1,6 +1,5 @@
 
 function registrer(){
-    console.log("register ran")
     const billett = {
         antall : $("#antall").val(),
         film : $("#film").val(),
@@ -68,7 +67,6 @@ function slett(){
 }
 
 function valider(billett){
-    console.log("valider ran")
     let valid = true
 
     //Antall
@@ -82,7 +80,6 @@ function valider(billett){
     }
 
     //Film
-    console.log(billett.film);
     if (billett.film === "invalid"){
         valid = false
         $("#feilmelding_film").show();
@@ -132,7 +129,6 @@ function valider(billett){
     }else {
         $("#feilmelding_epost").hide();
     }
-    console.log(valid);
 
     return valid
 }
