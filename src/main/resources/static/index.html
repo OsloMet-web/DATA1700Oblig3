@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src = "kino.js"></script>
+
+<body>
+
+
+<h1>Kjøp av kinobillett</h1>
+<br>
+
+<label for ="antall">Antall</label>
+<input id = "antall">
+<span id = "feilmelding_antall" style = "color: red; display: none">Du må skrive ett valid antall</span>
+<br>
+
+<label for="film">Film</label>
+<select id = "film" >
+    <option value = "invalid">Velg film her</option>
+    <option value = "Jaws">Jaws</option>
+    <option value = "Oppenheimer">Oppenheimer</option>
+    <option value = "Return_jedi">Star wars: Return of the jedi</option>
+</select>
+<span id = "feilmelding_film" style = "color: red; display: none">Du må velge en film</span>
+<br>
+
+<label for ="fornavn">Fornavn</label>
+<input id = "fornavn">
+<span id = "feilmelding_fornavn" style = "color: red; display: none">Du må skrive ett valid fornavn</span>
+
+<br>
+
+<label for ="etternavn">Etternavn</label>
+<input id = "etternavn">
+<span id = "feilmelding_etternavn" style = "color: red; display: none">Du må skrive ett valid etternavn</span>
+<br>
+
+<label for ="telefon">Telefon</label>
+<input id = "telefon">
+<span id = "feilmelding_telefon" style = "color: red; display: none">Du må skrive ett valid telefonnummer</span>
+<br>
+
+<label for ="epost">Epost</label>
+<input id = "epost">
+<span id = "feilmelding_epost" style = "color: red; display: none">Du må skrive ett valid epost</span>
+<br>
+
+<button id = "hentData" onclick="registrer()">Kjøp</button>
+<br>
+
+<h2>Billettregister</h2><br>
+<div id = "billettregister"></div><br>
+<button id = "slett" onclick = "slett()">Slett</button>
+
+
+
+
+</body>
+</html>
